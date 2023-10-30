@@ -23,5 +23,5 @@ with DAG(
         task_id="bash_t2",       #dag 그래프에 표현되는 ID, 객체명과 일치하도록
         bash_command="echo $HOSTNAME",
     )
-
+    """하잇"""
     bash_t1 >> bash_t2
